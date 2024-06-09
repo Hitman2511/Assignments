@@ -1,6 +1,10 @@
 
 --Answer 1
 SELECT * FROM information_schema.key_column_usage;
+-- Primary key should be not null and unique. There can be only one primary key in one table. The next potential primary key is known as candidate key.
+-- Syntax for primary key is primary kry(studentid)
+-- Forign key- there can be multiple foreign keys in a table. It references another table.
+--example- foreign key(tid) references teachers(teacherid)
 --answer 2
 select * from actor;
 --Answer 3
